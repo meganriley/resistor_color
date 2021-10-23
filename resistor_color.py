@@ -15,6 +15,4 @@ def color_code(color):
 
 
 def colors():
-    color_list = ([color for color, value in resistor_colors.items() if value == resistor_colors[color]])
-    return color_list
-    
+    return ([color for color, value in resistor_colors.items() if value == resistor_colors[color]])
